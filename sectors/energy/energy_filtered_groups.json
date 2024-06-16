@@ -1,0 +1,900 @@
+[
+    {
+        "modified": "2024-04-11T16:06:34.698Z",
+        "name": "OilRig",
+        "description": "[OilRig](https://attack.mitre.org/groups/G0049) is a suspected Iranian threat group that has targeted Middle Eastern and international victims since at least 2014. The group has targeted a variety of sectors, including financial, government, energy, chemical, and telecommunications. It appears the group carries out supply chain attacks, leveraging the trust relationship between organizations to attack their primary targets. The group works on behalf of the Iranian government based on infrastructure details that contain references to Iran, use of Iranian infrastructure, and targeting that aligns with nation-state interests.(Citation: FireEye APT34 Dec 2017)(Citation: Palo Alto OilRig April 2017)(Citation: ClearSky OilRig Jan 2017)(Citation: Palo Alto OilRig May 2016)(Citation: Palo Alto OilRig Oct 2016)(Citation: Unit42 OilRig Playbook 2023)(Citation: Unit 42 QUADAGENT July 2018)",
+        "aliases": [
+            "OilRig",
+            "COBALT GYPSY",
+            "IRN2",
+            "APT34",
+            "Helix Kitten",
+            "Evasive Serpens",
+            "Hazel Sandstorm",
+            "EUROPIUM"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "4.0",
+        "x_mitre_contributors": [
+            "Robert Falcone",
+            "Bryan Lee",
+            "Dragos Threat Intelligence"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",
+        "created": "2017-12-14T16:46:06.044Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0049",
+                "external_id": "G0049"
+            },
+            {
+                "source_name": "IRN2",
+                "description": "(Citation: Crowdstrike Helix Kitten Nov 2018)"
+            },
+            {
+                "source_name": "Hazel Sandstorm",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "EUROPIUM",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "OilRig",
+                "description": "(Citation: Palo Alto OilRig April 2017) (Citation: ClearSky OilRig Jan 2017) (Citation: Palo Alto OilRig May 2016) (Citation: Palo Alto OilRig Oct 2016) (Citation: Unit 42 Playbook Dec 2017) (Citation: Unit 42 QUADAGENT July 2018)"
+            },
+            {
+                "source_name": "COBALT GYPSY",
+                "description": "(Citation: Secureworks COBALT GYPSY Threat Profile)"
+            },
+            {
+                "source_name": "Helix Kitten",
+                "description": "(Citation: Unit 42 QUADAGENT July 2018)(Citation: Crowdstrike Helix Kitten Nov 2018)"
+            },
+            {
+                "source_name": "Evasive Serpens",
+                "description": "(Citation: Unit42 OilRig Playbook 2023)"
+            },
+            {
+                "source_name": "Check Point APT34 April 2021",
+                "description": "Check Point. (2021, April 8). Iran\u2019s APT34 Returns with an Updated Arsenal. Retrieved May 5, 2021.",
+                "url": "https://research.checkpoint.com/2021/irans-apt34-returns-with-an-updated-arsenal/"
+            },
+            {
+                "source_name": "ClearSky OilRig Jan 2017",
+                "description": "ClearSky Cybersecurity. (2017, January 5). Iranian Threat Agent OilRig Delivers Digitally Signed Malware, Impersonates University of Oxford. Retrieved May 3, 2017.",
+                "url": "http://www.clearskysec.com/oilrig/"
+            },
+            {
+                "source_name": "Palo Alto OilRig May 2016",
+                "description": "Falcone, R. and Lee, B.. (2016, May 26). The OilRig Campaign: Attacks on Saudi Arabian Organizations Deliver Helminth Backdoor. Retrieved May 3, 2017.",
+                "url": "http://researchcenter.paloaltonetworks.com/2016/05/the-oilrig-campaign-attacks-on-saudi-arabian-organizations-deliver-helminth-backdoor/"
+            },
+            {
+                "source_name": "Palo Alto OilRig April 2017",
+                "description": "Falcone, R.. (2017, April 27). OilRig Actors Provide a Glimpse into Development and Testing Efforts. Retrieved May 3, 2017.",
+                "url": "http://researchcenter.paloaltonetworks.com/2017/04/unit42-oilrig-actors-provide-glimpse-development-testing-efforts/"
+            },
+            {
+                "source_name": "Palo Alto OilRig Oct 2016",
+                "description": "Grunzweig, J. and Falcone, R.. (2016, October 4). OilRig Malware Campaign Updates Toolset and Expands Targets. Retrieved May 3, 2017.",
+                "url": "http://researchcenter.paloaltonetworks.com/2016/10/unit42-oilrig-malware-campaign-updates-toolset-and-expands-targets/"
+            },
+            {
+                "source_name": "Unit 42 QUADAGENT July 2018",
+                "description": "Lee, B., Falcone, R. (2018, July 25). OilRig Targets Technology Service Provider and Government Agency with QUADAGENT. Retrieved August 9, 2018.",
+                "url": "https://researchcenter.paloaltonetworks.com/2018/07/unit42-oilrig-targets-technology-service-provider-government-agency-quadagent/"
+            },
+            {
+                "source_name": "Crowdstrike Helix Kitten Nov 2018",
+                "description": "Meyers, A. (2018, November 27). Meet CrowdStrike\u2019s Adversary of the Month for November: HELIX KITTEN. Retrieved December 18, 2018.",
+                "url": "https://www.crowdstrike.com/blog/meet-crowdstrikes-adversary-of-the-month-for-november-helix-kitten/"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "FireEye APT34 Dec 2017",
+                "description": "Sardiwal, M, et al. (2017, December 7). New Targeted Attack in the Middle East by APT34, a Suspected Iranian Threat Group, Using CVE-2017-11882 Exploit. Retrieved December 20, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html"
+            },
+            {
+                "source_name": "Secureworks COBALT GYPSY Threat Profile",
+                "description": "Secureworks. (n.d.). COBALT GYPSY Threat Profile. Retrieved April 14, 2021.",
+                "url": "https://www.secureworks.com/research/threat-profiles/cobalt-gypsy"
+            },
+            {
+                "source_name": "APT34",
+                "description": "This group was previously tracked under two distinct groups, APT34 and OilRig, but was combined due to additional reporting giving higher confidence about the overlap of the activity.(Citation: Unit 42 QUADAGENT July 2018)(Citation: FireEye APT34 Dec 2017)(Citation: Check Point APT34 April 2021)"
+            },
+            {
+                "source_name": "Unit 42 Playbook Dec 2017",
+                "description": "Unit 42. (2017, December 15). Unit 42 Playbook Viewer. Retrieved December 20, 2017.",
+                "url": "https://pan-unit42.github.io/playbook_viewer/"
+            },
+            {
+                "source_name": "Unit42 OilRig Playbook 2023",
+                "description": "Unit42. (2016, May 1). Evasive Serpens Unit 42 Playbook Viewer. Retrieved February 6, 2023.",
+                "url": "https://pan-unit42.github.io/playbook_viewer/?pb=evasive-serpens"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "ics-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-01-11T21:51:11.405Z",
+        "name": "LAPSUS$",
+        "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) is cyber criminal threat group that has been active since at least mid-2021. [LAPSUS$](https://attack.mitre.org/groups/G1004) specializes in large-scale social engineering and extortion operations, including destructive attacks without the use of ransomware. The group has targeted organizations globally, including in the government, manufacturing, higher education, energy, healthcare, technology, telecommunications, and media sectors.(Citation: BBC LAPSUS Apr 2022)(Citation: MSTIC DEV-0537 Mar 2022)(Citation: UNIT 42 LAPSUS Mar 2022)",
+        "aliases": [
+            "LAPSUS$",
+            "DEV-0537",
+            "Strawberry Tempest"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.0",
+        "x_mitre_contributors": [
+            "David Hughes, BT Security",
+            "Matt Brenton, Zurich Insurance Group",
+            "Flavio Costa, Cisco",
+            "Caio Silva"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",
+        "created": "2022-06-09T19:14:31.327Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1004",
+                "external_id": "G1004"
+            },
+            {
+                "source_name": "Strawberry Tempest",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "DEV-0537",
+                "description": "(Citation: MSTIC DEV-0537 Mar 2022)"
+            },
+            {
+                "source_name": "BBC LAPSUS Apr 2022",
+                "description": "BBC. (2022, April 1). LAPSUS: Two UK Teenagers Charged with Hacking for Gang. Retrieved June 9, 2022.",
+                "url": "https://www.bbc.com/news/technology-60953527"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "MSTIC DEV-0537 Mar 2022",
+                "description": "MSTIC, DART, M365 Defender. (2022, March 24). DEV-0537 Criminal Actor Targeting Organizations for Data Exfiltration and Destruction. Retrieved May 17, 2022.",
+                "url": "https://www.microsoft.com/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/"
+            },
+            {
+                "source_name": "UNIT 42 LAPSUS Mar 2022",
+                "description": "UNIT 42. (2022, March 24). Threat Brief: Lapsus$ Group. Retrieved May 17, 2022.",
+                "url": "https://unit42.paloaltonetworks.com/lapsus-group/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T02:52:27.131Z",
+        "name": "BITTER",
+        "description": "[BITTER](https://attack.mitre.org/groups/G1002) is a suspected South Asian cyber espionage threat group that has been active since at least 2013. [BITTER](https://attack.mitre.org/groups/G1002) has targeted government, energy, and engineering organizations in Pakistan, China, Bangladesh, and Saudi Arabia.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
+        "aliases": [
+            "BITTER",
+            "T-APT-17"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.1",
+        "type": "intrusion-set",
+        "id": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9",
+        "created": "2022-06-01T20:26:53.880Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1002",
+                "external_id": "G1002"
+            },
+            {
+                "source_name": "T-APT-17",
+                "description": "(Citation: Cisco Talos Bitter Bangladesh May 2022)"
+            },
+            {
+                "source_name": "Forcepoint BITTER Pakistan Oct 2016",
+                "description": "Dela Paz, R. (2016, October 21). BITTER: a targeted attack against Pakistan. Retrieved June 1, 2022.",
+                "url": "https://www.forcepoint.com/blog/x-labs/bitter-targeted-attack-against-pakistan"
+            },
+            {
+                "source_name": "Cisco Talos Bitter Bangladesh May 2022",
+                "description": "Raghuprasad, C . (2022, May 11). Bitter APT adds Bangladesh to their targets. Retrieved June 1, 2022.",
+                "url": "https://blog.talosintelligence.com/2022/05/bitter-apt-adds-bangladesh-to-their.html"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "mobile-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T00:47:44.925Z",
+        "name": "menuPass",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) is a threat group that has been active since at least 2006. Individual members of [menuPass](https://attack.mitre.org/groups/G0045) are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)\n\n[menuPass](https://attack.mitre.org/groups/G0045) has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a university.(Citation: Palo Alto menuPass Feb 2017)(Citation: Crowdstrike CrowdCast Oct 2013)(Citation: FireEye Poison Ivy)(Citation: PWC Cloud Hopper April 2017)(Citation: FireEye APT10 April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "aliases": [
+            "menuPass",
+            "Cicada",
+            "POTASSIUM",
+            "Stone Panda",
+            "APT10",
+            "Red Apollo",
+            "CVNX",
+            "HOGFISH",
+            "BRONZE RIVERSIDE"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "3.0",
+        "x_mitre_contributors": [
+            "Edward Millington",
+            "Michael Cox"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "created": "2017-05-31T21:32:09.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0045",
+                "external_id": "G0045"
+            },
+            {
+                "source_name": "HOGFISH",
+                "description": "(Citation: Accenture Hogfish April 2018)"
+            },
+            {
+                "source_name": "POTASSIUM",
+                "description": "(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "Stone Panda",
+                "description": "(Citation: Palo Alto menuPass Feb 2017)(Citation: Accenture Hogfish April 2018)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)(Citation: Symantec Cicada November 2020)"
+            },
+            {
+                "source_name": "APT10",
+                "description": "(Citation: Palo Alto menuPass Feb 2017)(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)(Citation: DOJ APT10 Dec 2018)(Citation: Symantec Cicada November 2020)"
+            },
+            {
+                "source_name": "menuPass",
+                "description": "(Citation: Palo Alto menuPass Feb 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "Red Apollo",
+                "description": "(Citation: PWC Cloud Hopper April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "CVNX",
+                "description": "(Citation: PWC Cloud Hopper April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "BRONZE RIVERSIDE",
+                "description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)"
+            },
+            {
+                "source_name": "Cicada",
+                "description": "(Citation: Symantec Cicada November 2020)"
+            },
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
+                "description": "Counter Threat Unit Research Team . (2022, June 23). BRONZE STARLIGHT RANSOMWARE OPERATIONS USE HUI LOADER. Retrieved December 7, 2023.",
+                "url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader"
+            },
+            {
+                "source_name": "Crowdstrike CrowdCast Oct 2013",
+                "description": "Crowdstrike. (2013, October 16). CrowdCasts Monthly: You Have an Adversary Problem. Retrieved March 1, 2017.",
+                "url": "https://www.slideshare.net/CrowdStrike/crowd-casts-monthly-you-have-an-adversary-problem"
+            },
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "FireEye Poison Ivy",
+                "description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved November 12, 2014.",
+                "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "Palo Alto menuPass Feb 2017",
+                "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, February 16). menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations. Retrieved March 1, 2017.",
+                "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/"
+            },
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017.",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            },
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019.",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2022-10-12T19:17:31.924Z",
+        "name": "Operation Wocao",
+        "description": "[Operation Wocao](https://attack.mitre.org/groups/G0116) described activities carried out by a China-based cyber espionage adversary. [Operation Wocao](https://attack.mitre.org/groups/G0116) targeted entities within the government, managed service providers, energy, health care, and technology sectors across several countries, including China, France, Germany, the United Kingdom, and the United States. [Operation Wocao](https://attack.mitre.org/groups/G0116) used similar TTPs and tools to APT20, suggesting a possible overlap.(Citation: FoxIT Wocao December 2019)",
+        "aliases": [
+            "Operation Wocao"
+        ],
+        "x_mitre_deprecated": true,
+        "x_mitre_version": "1.0",
+        "x_mitre_contributors": [
+            "Erik Schamper, @Schamperr, Fox-IT",
+            "Maarten van Dantzig, @MaartenVDantzig, Fox-IT"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--28f04ed3-8e91-4805-b1f6-869020517871",
+        "created": "2020-11-17T20:33:44.273Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0116",
+                "external_id": "G0116"
+            },
+            {
+                "source_name": "Operation Wocao",
+                "description": "(Citation: FoxIT Wocao December 2019)"
+            },
+            {
+                "source_name": "FoxIT Wocao December 2019",
+                "description": "Dantzig, M. v., Schamper, E. (2019, December 19). Operation Wocao: Shining a light on one of China\u2019s hidden hacking groups. Retrieved October 8, 2020.",
+                "url": "https://www.fox-it.com/media/kadlze5c/201912_report_operation_wocao.pdf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T03:03:02.576Z",
+        "name": "APT19",
+        "description": "[APT19](https://attack.mitre.org/groups/G0073) is a Chinese-based threat group that has targeted a variety of industries, including defense, finance, energy, pharmaceutical, telecommunications, high tech, education, manufacturing, and legal services. In 2017, a phishing campaign was used to target seven law and investment firms. (Citation: FireEye APT19) Some analysts track [APT19](https://attack.mitre.org/groups/G0073) and [Deep Panda](https://attack.mitre.org/groups/G0009) as the same group, but it is unclear from open source information if the groups are the same. (Citation: ICIT China's Espionage Jul 2016) (Citation: FireEye APT Groups) (Citation: Unit 42 C0d0so0 Jan 2016)",
+        "aliases": [
+            "APT19",
+            "Codoso",
+            "C0d0so0",
+            "Codoso Team",
+            "Sunshop Group"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.6",
+        "x_mitre_contributors": [
+            "FS-ISAC",
+            "Darren Spruell"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fe8796a4-2a02-41a0-9d27-7aa1e995feb6",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0073",
+                "external_id": "G0073"
+            },
+            {
+                "source_name": "Sunshop Group",
+                "description": "(Citation: Dark Reading Codoso Feb 2015)"
+            },
+            {
+                "source_name": "Codoso Team",
+                "description": "(Citation: FireEye APT Groups)"
+            },
+            {
+                "source_name": "APT19",
+                "description": "(Citation: FireEye APT19)"
+            },
+            {
+                "source_name": "Codoso",
+                "description": "(Citation: Unit 42 C0d0so0 Jan 2016)"
+            },
+            {
+                "source_name": "C0d0so0",
+                "description": "(Citation: Unit 42 C0d0so0 Jan 2016)"
+            },
+            {
+                "source_name": "FireEye APT19",
+                "description": "Ahl, I. (2017, June 06). Privileges and Credentials: Phished at the Request of Counsel. Retrieved May 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
+            },
+            {
+                "source_name": "Dark Reading Codoso Feb 2015",
+                "description": "Chickowski, E. (2015, February 10). Chinese Hacking Group Codoso Team Uses Forbes.com As Watering Hole. Retrieved September 13, 2018.",
+                "url": "https://www.darkreading.com/attacks-breaches/chinese-hacking-group-codoso-team-uses-forbescom-as-watering-hole-/d/d-id/1319059"
+            },
+            {
+                "source_name": "FireEye APT Groups",
+                "description": "FireEye. (n.d.). Advanced Persistent Threat Groups. Retrieved August 3, 2018.",
+                "url": "https://www.fireeye.com/current-threats/apt-groups.html#apt19"
+            },
+            {
+                "source_name": "Unit 42 C0d0so0 Jan 2016",
+                "description": "Grunzweig, J., Lee, B. (2016, January 22). New Attacks Linked to C0d0so0 Group. Retrieved August 2, 2018.",
+                "url": "https://researchcenter.paloaltonetworks.com/2016/01/new-attacks-linked-to-c0d0s0-group/"
+            },
+            {
+                "source_name": "ICIT China's Espionage Jul 2016",
+                "description": "Scott, J. and Spaniel, D. (2016, July 28). ICIT Brief - China\u2019s Espionage Dynasty: Economic Death by a Thousand Cuts. Retrieved June 7, 2018.",
+                "url": "https://web.archive.org/web/20171017072306/https://icitech.org/icit-brief-chinas-espionage-dynasty-economic-death-by-a-thousand-cuts/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T00:39:25.190Z",
+        "name": "Moses Staff",
+        "description": "[Moses Staff](https://attack.mitre.org/groups/G1009) is a suspected Iranian threat group that has primarily targeted Israeli companies since at least September 2021. [Moses Staff](https://attack.mitre.org/groups/G1009) openly stated their motivation in attacking Israeli companies is to cause damage by leaking stolen sensitive data and encrypting the victim's networks without a ransom demand.(Citation: Checkpoint MosesStaff Nov 2021) \n\nSecurity researchers assess [Moses Staff](https://attack.mitre.org/groups/G1009) is politically motivated, and has targeted government, finance, travel, energy, manufacturing, and utility companies outside of Israel as well, including those in Italy, India, Germany, Chile, Turkey, the UAE, and the US.(Citation: Cybereason StrifeWater Feb 2022)",
+        "aliases": [
+            "Moses Staff",
+            "DEV-0500",
+            "Marigold Sandstorm"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.0",
+        "x_mitre_contributors": [
+            "Hiroki Nagahama, NEC Corporation",
+            "Pooja Natarajan, NEC Corporation India",
+            "Manikantan Srinivasan, NEC Corporation India"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--4c4a7846-45d5-4761-8eea-725fa989914c",
+        "created": "2022-08-11T22:47:27.686Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1009",
+                "external_id": "G1009"
+            },
+            {
+                "source_name": "DEV-0500",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Marigold Sandstorm",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Checkpoint MosesStaff Nov 2021",
+                "description": "Checkpoint Research. (2021, November 15). Uncovering MosesStaff techniques: Ideology over Money. Retrieved August 11, 2022.",
+                "url": "https://research.checkpoint.com/2021/mosesstaff-targeting-israeli-companies/"
+            },
+            {
+                "source_name": "Cybereason StrifeWater Feb 2022",
+                "description": "Cybereason Nocturnus. (2022, February 1). StrifeWater RAT: Iranian APT Moses Staff Adds New Trojan to Ransomware Operations. Retrieved August 15, 2022.",
+                "url": "https://www.cybereason.com/blog/research/strifewater-rat-iranian-apt-moses-staff-adds-new-trojan-to-ransomware-operations"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-10T22:33:06.500Z",
+        "name": "Threat Group-3390",
+        "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) is a Chinese threat group that has extensively used strategic Web compromises to target victims.(Citation: Dell TG-3390) The group has been active since at least 2010 and has targeted organizations in the aerospace, government, defense, technology, energy, manufacturing and gambling/betting sectors.(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Securelist LuckyMouse June 2018)(Citation: Trend Micro DRBControl February 2020)",
+        "aliases": [
+            "Threat Group-3390",
+            "Earth Smilodon",
+            "TG-3390",
+            "Emissary Panda",
+            "BRONZE UNION",
+            "APT27",
+            "Iron Tiger",
+            "LuckyMouse"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.2",
+        "x_mitre_contributors": [
+            "Daniyal Naeem, BT Security",
+            "Kyaw Pyiyt Htet, @KyawPyiytHtet"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",
+        "created": "2017-05-31T21:31:58.518Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0027",
+                "external_id": "G0027"
+            },
+            {
+                "source_name": "Threat Group-3390",
+                "description": "(Citation: Dell TG-3390)(Citation: Hacker News LuckyMouse June 2018)"
+            },
+            {
+                "source_name": "TG-3390",
+                "description": "(Citation: Dell TG-3390)(Citation: Nccgroup Emissary Panda May 2018)(Citation: Hacker News LuckyMouse June 2018)"
+            },
+            {
+                "source_name": "Emissary Panda",
+                "description": "(Citation: Gallagher 2015)(Citation: Nccgroup Emissary Panda May 2018)(Citation: Securelist LuckyMouse June 2018)(Citation: Hacker News LuckyMouse June 2018)(Citation: Unit42 Emissary Panda May 2019)(Citation: Trend Micro Iron Tiger April 2021)"
+            },
+            {
+                "source_name": "Iron Tiger",
+                "description": "(Citation: Hacker News LuckyMouse June 2018)(Citation: Trend Micro Iron Tiger April 2021)"
+            },
+            {
+                "source_name": "APT27",
+                "description": "(Citation: Nccgroup Emissary Panda May 2018)(Citation: Securelist LuckyMouse June 2018)(Citation: Hacker News LuckyMouse June 2018)(Citation: Trend Micro Iron Tiger April 2021)"
+            },
+            {
+                "source_name": "LuckyMouse",
+                "description": "(Citation: Securelist LuckyMouse June 2018)(Citation: Hacker News LuckyMouse June 2018)(Citation: Trend Micro Iron Tiger April 2021)"
+            },
+            {
+                "source_name": "BRONZE UNION",
+                "description": "(Citation: SecureWorks BRONZE UNION June 2017)(Citation: Nccgroup Emissary Panda May 2018)"
+            },
+            {
+                "source_name": "Earth Smilodon",
+                "description": "(Citation: Trend Micro Iron Tiger April 2021)"
+            },
+            {
+                "source_name": "SecureWorks BRONZE UNION June 2017",
+                "description": "Counter Threat Unit Research Team. (2017, June 27). BRONZE UNION Cyberespionage Persists Despite Disclosures. Retrieved July 13, 2017.",
+                "url": "https://www.secureworks.com/research/bronze-union"
+            },
+            {
+                "source_name": "Dell TG-3390",
+                "description": "Dell SecureWorks Counter Threat Unit Threat Intelligence. (2015, August 5). Threat Group-3390 Targets Organizations for Cyberespionage. Retrieved August 18, 2018.",
+                "url": "https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage"
+            },
+            {
+                "source_name": "Unit42 Emissary Panda May 2019",
+                "description": "Falcone, R. and Lancaster, T. (2019, May 28). Emissary Panda Attacks Middle East Government Sharepoint Servers. Retrieved July 9, 2019.",
+                "url": "https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/"
+            },
+            {
+                "source_name": "Gallagher 2015",
+                "description": "Gallagher, S.. (2015, August 5). Newly discovered Chinese hacking group hacked 100+ websites to use as \u201cwatering holes\u201d. Retrieved January 25, 2016.",
+                "url": "http://arstechnica.com/security/2015/08/newly-discovered-chinese-hacking-group-hacked-100-websites-to-use-as-watering-holes/"
+            },
+            {
+                "source_name": "Hacker News LuckyMouse June 2018",
+                "description": "Khandelwal, S. (2018, June 14). Chinese Hackers Carried Out Country-Level Watering Hole Attack. Retrieved August 18, 2018.",
+                "url": "https://thehackernews.com/2018/06/chinese-watering-hole-attack.html"
+            },
+            {
+                "source_name": "Securelist LuckyMouse June 2018",
+                "description": "Legezo, D. (2018, June 13). LuckyMouse hits national data center to organize country-level waterholing campaign. Retrieved August 18, 2018.",
+                "url": "https://securelist.com/luckymouse-hits-national-data-center/86083/"
+            },
+            {
+                "source_name": "Trend Micro Iron Tiger April 2021",
+                "description": "Lunghi, D. and Lu, K. (2021, April 9). Iron Tiger APT Updates Toolkit With Evolved SysUpdate Malware. Retrieved November 12, 2021.",
+                "url": "https://www.trendmicro.com/en_us/research/21/d/iron-tiger-apt-updates-toolkit-with-evolved-sysupdate-malware-va.html"
+            },
+            {
+                "source_name": "Trend Micro DRBControl February 2020",
+                "description": "Lunghi, D. et al. (2020, February). Uncovering DRBControl. Retrieved November 12, 2021.",
+                "url": "https://documents.trendmicro.com/assets/white_papers/wp-uncovering-DRBcontrol.pdf"
+            },
+            {
+                "source_name": "Nccgroup Emissary Panda May 2018",
+                "description": "Pantazopoulos, N., Henry T. (2018, May 18). Emissary Panda \u2013 A potential new malicious tool. Retrieved June 25, 2018.",
+                "url": "https://research.nccgroup.com/2018/05/18/emissary-panda-a-potential-new-malicious-tool/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "aliases": [
+            "Tonto Team",
+            "Earth Akhlut",
+            "BRONZE HUNTLEY",
+            "CactusPete",
+            "Karma Panda"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "id": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",
+        "type": "intrusion-set",
+        "created": "2021-05-05T17:18:25.987Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "external_references": [
+            {
+                "external_id": "G0131",
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0131"
+            },
+            {
+                "source_name": "Tonto Team",
+                "description": "(Citation: Talos Bisonal Mar 2020) "
+            },
+            {
+                "source_name": "Earth Akhlut",
+                "description": "(Citation: TrendMicro Tonto Team October 2020)"
+            },
+            {
+                "source_name": "BRONZE HUNTLEY",
+                "description": "(Citation: Secureworks BRONZE HUNTLEY )"
+            },
+            {
+                "source_name": "CactusPete",
+                "description": "(Citation: Kaspersky CactusPete Aug 2020)"
+            },
+            {
+                "source_name": "Karma Panda",
+                "description": "(Citation: Kaspersky CactusPete Aug 2020)(Citation: CrowdStrike Manufacturing Threat July 2020)"
+            },
+            {
+                "source_name": "Kaspersky CactusPete Aug 2020",
+                "url": "https://securelist.com/cactuspete-apt-groups-updated-bisonal-backdoor/97962/",
+                "description": "Zykov, K. (2020, August 13). CactusPete APT group\u2019s updated Bisonal backdoor. Retrieved May 5, 2021."
+            },
+            {
+                "source_name": "ESET Exchange Mar 2021",
+                "url": "https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/",
+                "description": "Faou, M., Tartare, M., Dupuy, T. (2021, March 10). Exchange servers under siege from at least 10 APT groups. Retrieved May 21, 2021."
+            },
+            {
+                "source_name": "FireEye Chinese Espionage October 2019",
+                "url": "https://www.fireeye.com/content/dam/fireeye-www/summit/cds-2019/presentations/cds19-executive-s08-achievement-unlocked.pdf",
+                "description": "Nalani Fraser, Kelli Vanderlee. (2019, October 10). Achievement Unlocked - Chinese Cyber Espionage Evolves to Support Higher Level Missions. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "ARS Technica China Hack SK April 2017",
+                "url": "https://arstechnica.com/information-technology/2017/04/researchers-claim-china-trying-to-hack-south-korea-missile-defense-efforts/",
+                "description": "Sean Gallagher. (2017, April 21). Researchers claim China trying to hack South Korea missile defense efforts. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Trend Micro HeartBeat Campaign January 2013",
+                "url": "https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp_the-heartbeat-apt-campaign.pdf?",
+                "description": "Roland Dela Paz. (2003, January 3). The HeartBeat APT Campaign. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Talos Bisonal 10 Years March 2020",
+                "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+                "description": "Warren Mercer, Paul Rascagneres, Vitor Ventura. (2020, March 6). Bisonal 10 Years of Play. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Talos Bisonal Mar 2020",
+                "url": "https://blog.talosintelligence.com/2020/03/bisonal-10-years-of-play.html",
+                "description": "Mercer, W., et al. (2020, March 5). Bisonal: 10 years of play. Retrieved January 26, 2022."
+            },
+            {
+                "source_name": "TrendMicro Tonto Team October 2020",
+                "url": "https://vb2020.vblocalhost.com/uploads/VB2020-06.pdf",
+                "description": "Daniel Lughi, Jaromir Horejsi. (2020, October 2). Tonto Team - Exploring the TTPs of an advanced threat actor operating a large infrastructure. Retrieved October 17, 2021."
+            },
+            {
+                "source_name": "Secureworks BRONZE HUNTLEY ",
+                "url": "https://www.secureworks.com/research/threat-profiles/bronze-huntley",
+                "description": "Secureworks. (2021, January 1). BRONZE HUNTLEY Threat Profile. Retrieved May 5, 2021."
+            },
+            {
+                "source_name": "CrowdStrike Manufacturing Threat July 2020",
+                "url": "https://www.crowdstrike.com/blog/adversaries-targeting-the-manufacturing-industry/",
+                "description": "Falcon OverWatch Team. (2020, July 14). Manufacturing Industry in the Adversaries\u2019 Crosshairs. Retrieved October 17, 2021."
+            }
+        ],
+        "modified": "2022-01-27T17:51:41.433Z",
+        "name": "Tonto Team",
+        "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) is a suspected Chinese state-sponsored cyber espionage threat group that has primarily targeted South Korea, Japan, Taiwan, and the United States since at least 2009; by 2020 they expanded operations to include other Asian as well as Eastern European countries. [Tonto Team](https://attack.mitre.org/groups/G0131) has targeted government, military, energy, mining, financial, education, healthcare, and technology organizations, including through the Heartbeat Campaign (2009-2012) and Operation Bitter Biscuit (2017).(Citation: Kaspersky CactusPete Aug 2020)(Citation: ESET Exchange Mar 2021)(Citation: FireEye Chinese Espionage October 2019)(Citation: ARS Technica China Hack SK April 2017)(Citation: Trend Micro HeartBeat Campaign January 2013)(Citation: Talos Bisonal 10 Years March 2020)",
+        "x_mitre_version": "1.1",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T16:06:34.700Z",
+        "name": "APT33",
+        "description": "[APT33](https://attack.mitre.org/groups/G0064) is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.(Citation: FireEye APT33 Sept 2017)(Citation: FireEye APT33 Webinar Sept 2017)",
+        "aliases": [
+            "APT33",
+            "HOLMIUM",
+            "Elfin",
+            "Peach Sandstorm"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.0",
+        "x_mitre_contributors": [
+            "Dragos Threat Intelligence"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0064",
+                "external_id": "G0064"
+            },
+            {
+                "source_name": "APT33",
+                "description": "(Citation: FireEye APT33 Sept 2017) (Citation: FireEye APT33 Webinar Sept 2017)"
+            },
+            {
+                "source_name": "HOLMIUM",
+                "description": "(Citation: Microsoft Holmium June 2020)"
+            },
+            {
+                "source_name": "Peach Sandstorm",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Elfin",
+                "description": "(Citation: Symantec Elfin Mar 2019)"
+            },
+            {
+                "source_name": "FireEye APT33 Webinar Sept 2017",
+                "description": "Davis, S. and Carr, N. (2017, September 21). APT33: New Insights into Iranian Cyber Espionage Group. Retrieved February 15, 2018.",
+                "url": "https://www.brighttalk.com/webcast/10703/275683"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "Microsoft Holmium June 2020",
+                "description": "Microsoft Threat Protection Intelligence Team. (2020, June 18). Inside Microsoft Threat Protection: Mapping attack chains from cloud to endpoint. Retrieved June 22, 2020.",
+                "url": "https://www.microsoft.com/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/"
+            },
+            {
+                "source_name": "FireEye APT33 Sept 2017",
+                "description": "O'Leary, J., et al. (2017, September 20). Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware. Retrieved February 15, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html"
+            },
+            {
+                "source_name": "Symantec Elfin Mar 2019",
+                "description": "Security Response attack Investigation Team. (2019, March 27). Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.. Retrieved April 10, 2019.",
+                "url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "ics-attack",
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2022-09-26T22:11:36.315Z",
+        "name": "Sharpshooter",
+        "description": "Operation [Sharpshooter](https://attack.mitre.org/groups/G0104) is the name of a cyber espionage campaign discovered in October 2018 targeting nuclear, defense, energy, and financial companies. Though overlaps between this adversary and [Lazarus Group](https://attack.mitre.org/groups/G0032) have been noted, definitive links have not been established.(Citation: McAfee Sharpshooter December 2018)",
+        "aliases": [
+            "Sharpshooter"
+        ],
+        "x_mitre_deprecated": true,
+        "x_mitre_version": "1.0",
+        "type": "intrusion-set",
+        "id": "intrusion-set--5e78ae92-3ffd-4b16-bf62-e798529d73f1",
+        "created": "2020-05-14T21:40:31.089Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0104",
+                "external_id": "G0104"
+            },
+            {
+                "source_name": "McAfee Sharpshooter December 2018",
+                "description": "Sherstobitoff, R., Malhotra, A., et. al.. (2018, December 18). Operation Sharpshooter Campaign Targets Global Defense, Critical Infrastructure. Retrieved May 14, 2020.",
+                "url": "https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-sharpshooter.pdf"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "2.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    }
+]

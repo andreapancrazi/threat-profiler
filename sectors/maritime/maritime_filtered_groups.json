@@ -1,0 +1,257 @@
+[
+    {
+        "modified": "2024-01-08T20:33:16.460Z",
+        "name": "Leviathan",
+        "description": "[Leviathan](https://attack.mitre.org/groups/G0065) is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, [Leviathan](https://attack.mitre.org/groups/G0065) has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)",
+        "aliases": [
+            "Leviathan",
+            "MUDCARP",
+            "Kryptonite Panda",
+            "Gadolinium",
+            "BRONZE MOHAWK",
+            "TEMP.Jumper",
+            "APT40",
+            "TEMP.Periscope",
+            "Gingham Typhoon"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "4.0",
+        "x_mitre_contributors": [
+            "Valerii Marchuk, Cybersecurity Help s.r.o."
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0065",
+                "external_id": "G0065"
+            },
+            {
+                "source_name": "MUDCARP",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: Accenture MUDCARP March 2019)"
+            },
+            {
+                "source_name": "Kryptonite Panda",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: Crowdstrike KRYPTONITE PANDA August 2018)"
+            },
+            {
+                "source_name": "Gadolinium",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: MSTIC GADOLINIUM September 2020)"
+            },
+            {
+                "source_name": "BRONZE MOHAWK",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: SecureWorks BRONZE MOHAWK n.d.)"
+            },
+            {
+                "source_name": "Gingham Typhoon",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Leviathan",
+                "description": "(Citation: Proofpoint Leviathan Oct 2017)"
+            },
+            {
+                "source_name": "TEMP.Jumper",
+                "description": "[Leviathan](https://attack.mitre.org/groups/G0065) was previously reported upon by FireEye as TEMP.Periscope and TEMP.Jumper.(Citation: CISA AA21-200A APT40 July 2021)(Citation: FireEye APT40 March 2019)"
+            },
+            {
+                "source_name": "TEMP.Periscope",
+                "description": "[Leviathan](https://attack.mitre.org/groups/G0065) was previously reported upon by FireEye as TEMP.Periscope and TEMP.Jumper.(Citation: CISA AA21-200A APT40 July 2021)(Citation: FireEye Periscope March 2018)(Citation: FireEye APT40 March 2019)"
+            },
+            {
+                "source_name": "Accenture MUDCARP March 2019",
+                "description": "Accenture iDefense Unit. (2019, March 5). Mudcarp's Focus on Submarine Technologies. Retrieved August 24, 2021.",
+                "url": "https://www.accenture.com/us-en/blogs/cyber-defense/mudcarps-focus-on-submarine-technologies"
+            },
+            {
+                "source_name": "Crowdstrike KRYPTONITE PANDA August 2018",
+                "description": "Adam Kozy. (2018, August 30). Two Birds, One Stone Panda. Retrieved August 24, 2021.",
+                "url": "https://www.crowdstrike.com/blog/two-birds-one-stone-panda/"
+            },
+            {
+                "source_name": "Proofpoint Leviathan Oct 2017",
+                "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets"
+            },
+            {
+                "source_name": "MSTIC GADOLINIUM September 2020",
+                "description": "Ben Koehl, Joe Hannon. (2020, September 24). Microsoft Security - Detecting Empires in the Cloud. Retrieved August 24, 2021.",
+                "url": "https://www.microsoft.com/security/blog/2020/09/24/gadolinium-detecting-empires-cloud/"
+            },
+            {
+                "source_name": "CISA AA21-200A APT40 July 2021",
+                "description": "CISA. (2021, July 19). (AA21-200A) Joint Cybersecurity Advisory \u2013 Tactics, Techniques, and Procedures of Indicted APT40 Actors Associated with China\u2019s MSS Hainan State Security Department. Retrieved August 12, 2021.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa21-200a"
+            },
+            {
+                "source_name": "APT40",
+                "description": "FireEye reporting on TEMP.Periscope (which was combined into APT40) indicated TEMP.Periscope was reported upon as Leviathan.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: FireEye APT40 March 2019)"
+            },
+            {
+                "source_name": "FireEye Periscope March 2018",
+                "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "FireEye APT40 March 2019",
+                "description": "Plan, F., et al. (2019, March 4). APT40: Examining a China-Nexus Espionage Actor. Retrieved March 18, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html"
+            },
+            {
+                "source_name": "SecureWorks BRONZE MOHAWK n.d.",
+                "description": "SecureWorks. (n.d.). Threat Profile - BRONZE MOHAWK. Retrieved August 24, 2021.",
+                "url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T00:47:44.925Z",
+        "name": "menuPass",
+        "description": "[menuPass](https://attack.mitre.org/groups/G0045) is a threat group that has been active since at least 2006. Individual members of [menuPass](https://attack.mitre.org/groups/G0045) are known to have acted in association with the Chinese Ministry of State Security's (MSS) Tianjin State Security Bureau and worked for the Huaying Haitai Science and Technology Development Company.(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)\n\n[menuPass](https://attack.mitre.org/groups/G0045) has targeted healthcare, defense, aerospace, finance, maritime, biotechnology, energy, and government sectors globally, with an emphasis on Japanese organizations. In 2016 and 2017, the group is known to have targeted managed IT service providers (MSPs), manufacturing and mining companies, and a university.(Citation: Palo Alto menuPass Feb 2017)(Citation: Crowdstrike CrowdCast Oct 2013)(Citation: FireEye Poison Ivy)(Citation: PWC Cloud Hopper April 2017)(Citation: FireEye APT10 April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)",
+        "aliases": [
+            "menuPass",
+            "Cicada",
+            "POTASSIUM",
+            "Stone Panda",
+            "APT10",
+            "Red Apollo",
+            "CVNX",
+            "HOGFISH",
+            "BRONZE RIVERSIDE"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "3.0",
+        "x_mitre_contributors": [
+            "Edward Millington",
+            "Michael Cox"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--222fbd21-fc4f-4b7e-9f85-0e6e3a76c33f",
+        "created": "2017-05-31T21:32:09.054Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0045",
+                "external_id": "G0045"
+            },
+            {
+                "source_name": "HOGFISH",
+                "description": "(Citation: Accenture Hogfish April 2018)"
+            },
+            {
+                "source_name": "POTASSIUM",
+                "description": "(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "Stone Panda",
+                "description": "(Citation: Palo Alto menuPass Feb 2017)(Citation: Accenture Hogfish April 2018)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)(Citation: Symantec Cicada November 2020)"
+            },
+            {
+                "source_name": "APT10",
+                "description": "(Citation: Palo Alto menuPass Feb 2017)(Citation: Accenture Hogfish April 2018)(Citation: FireEye APT10 Sept 2018)(Citation: DOJ APT10 Dec 2018)(Citation: Symantec Cicada November 2020)"
+            },
+            {
+                "source_name": "menuPass",
+                "description": "(Citation: Palo Alto menuPass Feb 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "Red Apollo",
+                "description": "(Citation: PWC Cloud Hopper April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "CVNX",
+                "description": "(Citation: PWC Cloud Hopper April 2017)(Citation: DOJ APT10 Dec 2018)(Citation: District Court of NY APT10 Indictment December 2018)"
+            },
+            {
+                "source_name": "BRONZE RIVERSIDE",
+                "description": "(Citation: SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022)"
+            },
+            {
+                "source_name": "Cicada",
+                "description": "(Citation: Symantec Cicada November 2020)"
+            },
+            {
+                "source_name": "Accenture Hogfish April 2018",
+                "description": "Accenture Security. (2018, April 23). Hogfish Redleaves Campaign. Retrieved July 2, 2018.",
+                "url": "http://web.archive.org/web/20220810112638/https:/www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf"
+            },
+            {
+                "source_name": "SecureWorks BRONZE STARLIGHT Ransomware Operations June 2022",
+                "description": "Counter Threat Unit Research Team . (2022, June 23). BRONZE STARLIGHT RANSOMWARE OPERATIONS USE HUI LOADER. Retrieved December 7, 2023.",
+                "url": "https://www.secureworks.com/research/bronze-starlight-ransomware-operations-use-hui-loader"
+            },
+            {
+                "source_name": "Crowdstrike CrowdCast Oct 2013",
+                "description": "Crowdstrike. (2013, October 16). CrowdCasts Monthly: You Have an Adversary Problem. Retrieved March 1, 2017.",
+                "url": "https://www.slideshare.net/CrowdStrike/crowd-casts-monthly-you-have-an-adversary-problem"
+            },
+            {
+                "source_name": "FireEye APT10 April 2017",
+                "description": "FireEye iSIGHT Intelligence. (2017, April 6). APT10 (MenuPass Group): New Tools, Global Campaign Latest Manifestation of Longstanding Threat. Retrieved June 29, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/apt10_menupass_grou.html"
+            },
+            {
+                "source_name": "FireEye Poison Ivy",
+                "description": "FireEye. (2014). POISON IVY: Assessing Damage and Extracting Intelligence. Retrieved November 12, 2014.",
+                "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf"
+            },
+            {
+                "source_name": "FireEye APT10 Sept 2018",
+                "description": "Matsuda, A., Muhammad I. (2018, September 13). APT10 Targeting Japanese Corporations Using Updated TTPs. Retrieved September 17, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html"
+            },
+            {
+                "source_name": "Palo Alto menuPass Feb 2017",
+                "description": "Miller-Osborn, J. and Grunzweig, J.. (2017, February 16). menuPass Returns with New Malware and New Attacks Against Japanese Academics and Organizations. Retrieved March 1, 2017.",
+                "url": "http://researchcenter.paloaltonetworks.com/2017/02/unit42-menupass-returns-new-malware-new-attacks-japanese-academics-organizations/"
+            },
+            {
+                "source_name": "PWC Cloud Hopper April 2017",
+                "description": "PwC and BAE Systems. (2017, April). Operation Cloud Hopper. Retrieved April 5, 2017.",
+                "url": "https://web.archive.org/web/20220224041316/https:/www.pwc.co.uk/cyber-security/pdf/cloud-hopper-report-final-v4.pdf"
+            },
+            {
+                "source_name": "Symantec Cicada November 2020",
+                "description": "Symantec. (2020, November 17). Japan-Linked Organizations Targeted in Long-Running and Sophisticated Attack Campaign. Retrieved December 17, 2020.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-japan-espionage"
+            },
+            {
+                "source_name": "DOJ APT10 Dec 2018",
+                "description": "United States District Court Southern District of New York (USDC SDNY) . (2018, December 17). United States of America v. Zhu Hua and Zhang Shilong. Retrieved April 17, 2019.",
+                "url": "https://www.justice.gov/opa/pr/two-chinese-hackers-associated-ministry-state-security-charged-global-computer-intrusion"
+            },
+            {
+                "source_name": "District Court of NY APT10 Indictment December 2018",
+                "description": "US District Court Southern District of New York. (2018, December 17). United States v. Zhu Hua Indictment. Retrieved December 17, 2020.",
+                "url": "https://www.justice.gov/opa/page/file/1122671/download"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    }
+]

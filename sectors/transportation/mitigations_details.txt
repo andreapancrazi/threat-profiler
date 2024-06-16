@@ -1,0 +1,42 @@
+Mitigation ID,Occurrences,Techniques,Priority
+M1031,24,T1041 (score: 1); T1105 (score: 1); T1566 (score: 1); T1566.001 (score: 1); T1572 (score: 1); T1090 (score: 1); T1204 (score: 1); T1204.001 (score: 1); T1102 (score: 1); T1102.003 (score: 1); T1071 (score: 2); T1071.001 (score: 2); T1071.004 (score: 2); T1132 (score: 2); T1132.001 (score: 2); T1573 (score: 2); T1573.002 (score: 2); T1046 (score: 2); T1221 (score: 2); T1568 (score: 3); T1008 (score: 4); T1571 (score: 4); T1219 (score: 4); T1102.002 (score: 4),47
+M1040,24,T1059 (score: 1); T1059.005 (score: 1); T1546.003 (score: 1); T1559 (score: 1); T1559.002 (score: 1); T1027 (score: 1); T1027.013 (score: 1); T1003 (score: 1); T1003.001 (score: 1); T1055 (score: 1); T1055.001 (score: 1); T1204 (score: 1); T1204.002 (score: 1); T1047 (score: 1); T1543 (score: 2); T1543.003 (score: 2); T1574 (score: 2); T1036 (score: 2); T1106 (score: 2); T1091 (score: 2); T1055.012 (score: 3); T1059.007 (score: 4); T1486 (score: 4); T1027.010 (score: 4),41
+M1042,22,T1059 (score: 1); T1059.001 (score: 1); T1059.005 (score: 1); T1133 (score: 1); T1559 (score: 1); T1559.002 (score: 1); T1021 (score: 1); T1021.001 (score: 1); T1021.004 (score: 1); T1505 (score: 1); T1505.003 (score: 1); T1218 (score: 1); T1052 (score: 2); T1052.001 (score: 2); T1046 (score: 2); T1091 (score: 2); T1221 (score: 2); T1218.005 (score: 3); T1059.007 (score: 4); T1210 (score: 4); T1219 (score: 4); T1021.005 (score: 4),41
+M1056,19,T1583 (score: 1); T1583.001 (score: 1); T1586 (score: 1); T1586.001 (score: 1); T1586.002 (score: 1); T1585 (score: 1); T1585.001 (score: 1); T1585.002 (score: 1); T1589 (score: 1); T1589.001 (score: 1); T1583.006 (score: 3); T1588 (score: 3); T1588.001 (score: 3); T1588.002 (score: 3); T1608 (score: 3); T1608.001 (score: 3); T1587 (score: 4); T1587.001 (score: 4); T1608.004 (score: 4),40
+M1026,22,T1059 (score: 1); T1059.001 (score: 1); T1546 (score: 1); T1546.003 (score: 1); T1559 (score: 1); T1003 (score: 1); T1003.001 (score: 1); T1055 (score: 1); T1021.001 (score: 1); T1505 (score: 1); T1553 (score: 1); T1218 (score: 1); T1078 (score: 1); T1047 (score: 1); T1543 (score: 2); T1078.003 (score: 2); T1053 (score: 3); T1053.005 (score: 3); T1190 (score: 4); T1210 (score: 4); T1558 (score: 4); T1558.003 (score: 4),40
+M1038,19,T1059 (score: 1); T1059.001 (score: 1); T1059.005 (score: 1); T1553 (score: 1); T1218 (score: 1); T1204 (score: 1); T1204.002 (score: 1); T1047 (score: 1); T1547.004 (score: 2); T1059.003 (score: 2); T1574 (score: 2); T1036 (score: 2); T1036.005 (score: 2); T1106 (score: 2); T1562 (score: 3); T1562.001 (score: 3); T1218.005 (score: 3); T1059.007 (score: 4); T1219 (score: 4),37
+M1018,19,T1197 (score: 1); T1547.009 (score: 1); T1546.003 (score: 1); T1566.002 (score: 1); T1021 (score: 1); T1021.001 (score: 1); T1021.004 (score: 1); T1505 (score: 1); T1505.003 (score: 1); T1078 (score: 1); T1047 (score: 1); T1547.004 (score: 2); T1543 (score: 2); T1543.003 (score: 2); T1574 (score: 2); T1562 (score: 3); T1562.001 (score: 3); T1053 (score: 3); T1053.005 (score: 3),31
+M1047,15,T1560 (score: 1); T1027 (score: 1); T1566 (score: 1); T1566.002 (score: 1); T1021 (score: 1); T1021.001 (score: 1); T1505 (score: 1); T1543 (score: 2); T1543.003 (score: 2); T1574 (score: 2); T1562 (score: 3); T1053 (score: 3); T1053.005 (score: 3); T1021.005 (score: 4); T1558 (score: 4),30
+M1051,9,T1189 (score: 1); T1546 (score: 1); T1574 (score: 2); T1574.002 (score: 2); T1546.011 (score: 4); T1190 (score: 4); T1210 (score: 4); T1195 (score: 4); T1195.002 (score: 4),26
+M1021,16,T1059 (score: 1); T1059.005 (score: 1); T1189 (score: 1); T1567 (score: 1); T1567.002 (score: 1); T1566 (score: 1); T1566.001 (score: 1); T1566.002 (score: 1); T1218 (score: 1); T1204 (score: 1); T1204.001 (score: 1); T1102 (score: 1); T1102.003 (score: 1); T1568 (score: 3); T1059.007 (score: 4); T1102.002 (score: 4),24
+M1049,12,T1059 (score: 1); T1059.001 (score: 1); T1059.005 (score: 1); T1027 (score: 1); T1027.013 (score: 1); T1566 (score: 1); T1566.001 (score: 1); T1564 (score: 2); T1036 (score: 2); T1221 (score: 2); T1027.002 (score: 3); T1027.010 (score: 4),20
+M1022,8,T1543 (score: 2); T1574 (score: 2); T1070 (score: 2); T1036 (score: 2); T1036.005 (score: 2); T1562 (score: 3); T1562.001 (score: 3); T1053 (score: 3),19
+M1037,9,T1197 (score: 1); T1572 (score: 1); T1090 (score: 1); T1090.003 (score: 1); T1218 (score: 1); T1071 (score: 2); T1071.004 (score: 2); T1219 (score: 4); T1021.005 (score: 4),17
+M1028,10,T1197 (score: 1); T1003 (score: 1); T1003.001 (score: 1); T1021.001 (score: 1); T1553 (score: 1); T1543 (score: 2); T1543.003 (score: 2); T1135 (score: 2); T1053 (score: 3); T1053.005 (score: 3),17
+M1050,7,T1189 (score: 1); T1203 (score: 1); T1218 (score: 1); T1218.010 (score: 1); T1190 (score: 4); T1210 (score: 4); T1218.011 (score: 4),16
+M1030,6,T1133 (score: 1); T1021.001 (score: 1); T1046 (score: 2); T1190 (score: 4); T1210 (score: 4); T1571 (score: 4),16
+M1016,4,T1190 (score: 4); T1210 (score: 4); T1195 (score: 4); T1195.002 (score: 4),16
+M1017,12,T1027 (score: 1); T1003 (score: 1); T1003.001 (score: 1); T1566 (score: 1); T1566.001 (score: 1); T1566.002 (score: 1); T1204 (score: 1); T1204.001 (score: 1); T1204.002 (score: 1); T1078 (score: 1); T1036 (score: 2); T1221 (score: 2),14
+M1027,7,T1003 (score: 1); T1003.001 (score: 1); T1021 (score: 1); T1078 (score: 1); T1078.003 (score: 2); T1558 (score: 4); T1558.003 (score: 4),14
+M1041,5,T1003 (score: 1); T1119 (score: 2); T1070 (score: 2); T1558 (score: 4); T1558.003 (score: 4),13
+M1048,6,T1189 (score: 1); T1203 (score: 1); T1559 (score: 1); T1559.002 (score: 1); T1190 (score: 4); T1210 (score: 4),12
+M1013,6,T1559 (score: 1); T1078 (score: 1); T1564 (score: 2); T1574 (score: 2); T1574.002 (score: 2); T1195 (score: 4),12
+M1033,4,T1543 (score: 2); T1564 (score: 2); T1021.005 (score: 4); T1195 (score: 4),12
+M1045,7,T1059 (score: 1); T1059.001 (score: 1); T1505 (score: 1); T1543 (score: 2); T1543.003 (score: 2); T1036 (score: 2); T1036.005 (score: 2),11
+M1054,8,T1559 (score: 1); T1559.002 (score: 1); T1566 (score: 1); T1566.001 (score: 1); T1566.002 (score: 1); T1553 (score: 1); T1543 (score: 2); T1562 (score: 3),11
+M1057,5,T1041 (score: 1); T1567 (score: 1); T1052 (score: 2); T1052.001 (score: 2); T1005 (score: 4),10
+M1024,5,T1505 (score: 1); T1553 (score: 1); T1574 (score: 2); T1562 (score: 3); T1562.001 (score: 3),10
+M1015,3,T1003 (score: 1); T1078 (score: 1); T1558 (score: 4),6
+M1034,3,T1052 (score: 2); T1052.001 (score: 2); T1091 (score: 2),6
+M1052,2,T1574 (score: 2); T1546.011 (score: 4),6
+M1020,3,T1090 (score: 1); T1573 (score: 2); T1573.002 (score: 2),5
+M1032,4,T1133 (score: 1); T1021 (score: 1); T1021.001 (score: 1); T1021.004 (score: 1),4
+M1029,2,T1119 (score: 2); T1070 (score: 2),4
+M1053,1,T1486 (score: 4),4
+M1019,1,T1210 (score: 4),4
+M1046,1,T1195 (score: 4),4
+M1035,3,T1133 (score: 1); T1021 (score: 1); T1021.001 (score: 1),3
+M1043,2,T1003 (score: 1); T1003.001 (score: 1),2
+M1025,2,T1003 (score: 1); T1003.001 (score: 1),2
+M1044,1,T1574 (score: 2),2
+M1036,1,T1078 (score: 1),1

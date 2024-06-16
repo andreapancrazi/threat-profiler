@@ -1,0 +1,750 @@
+{
+    "name": "maritime threat groups",
+    "description": "Combination of all maritime threat groups layers",
+    "versions": {
+        "attack": "15",
+        "navigator": "5.0.1",
+        "layer": "4.5"
+    },
+    "domain": "enterprise-attack",
+    "techniques": [
+        {
+            "techniqueID": "T1087",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1087.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1583",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1583.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1560",
+            "comment": "",
+            "score": 1,
+            "showSubtechniques": true,
+            "color": ""
+        },
+        {
+            "techniqueID": "T1560.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1119",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1059",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1059.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1059.003",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1005",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1039",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1074",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1074.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1074.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1140",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1568",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1568.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1190",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1210",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1083",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1574",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1574.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1574.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1070",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1070.003",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1070.004",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1105",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1056",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1056.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1036",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1036.003",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1036.005",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1106",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1046",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1027",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1027.013",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1588",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1588.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1003",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1003.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1003.003",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1003.004",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1566",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1566.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1055",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1055.012",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1090",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1090.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1021",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1021.001",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1021.004",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1018",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1053",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1053.005",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1553",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1553.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1218",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1218.004",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1016",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1049",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1199",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1204",
+            "showSubtechniques": true,
+            "score": 1,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1204.002",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1078",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1047",
+            "comment": "",
+            "score": 1,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1197",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1547",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1547.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1547.009",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1059.005",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1586",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1586.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1586.002",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1189",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1585",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1585.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1585.002",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1546",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1546.003",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1041",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1567",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1567.002",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1203",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1133",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1589",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1589.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1559",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1559.002",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1534",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1027.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1027.003",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1003.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1566.002",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1055.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1572",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": false
+        },
+        {
+            "techniqueID": "T1090.003",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1505",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1505.003",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1218.010",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1204.001",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        },
+        {
+            "techniqueID": "T1102",
+            "showSubtechniques": true,
+            "score": 2,
+            "color": "",
+            "comment": ""
+        },
+        {
+            "techniqueID": "T1102.003",
+            "comment": "",
+            "score": 2,
+            "color": "",
+            "showSubtechniques": true
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#ffffff00",
+            "#ff6666ff"
+        ],
+        "minValue": 1,
+        "maxValue": 2
+    },
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "average",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": true,
+        "countUnscored": false,
+        "expandedSubtechniques": "none"
+    }
+}

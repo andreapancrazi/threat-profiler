@@ -1,0 +1,474 @@
+[
+    {
+        "modified": "2024-01-08T20:40:31.822Z",
+        "name": "Dragonfly",
+        "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) is a cyber espionage group that has been attributed to Russia's Federal Security Service (FSB) Center 16.(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022) Active since at least 2010, [Dragonfly](https://attack.mitre.org/groups/G0035) has targeted defense and aviation companies, government entities, companies related to industrial control systems, and critical infrastructure sectors worldwide through supply chain, spearphishing, and drive-by compromise attacks.(Citation: Symantec Dragonfly)(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Symantec Dragonfly Sept 2017)(Citation: Fortune Dragonfly 2.0 Sept 2017)(Citation: Gigamon Berserk Bear October 2021)(Citation: CISA AA20-296A Berserk Bear December 2020)(Citation: Symantec Dragonfly 2.0 October 2017)",
+        "aliases": [
+            "Dragonfly",
+            "TEMP.Isotope",
+            "DYMALLOY",
+            "Berserk Bear",
+            "TG-4192",
+            "Crouching Yeti",
+            "IRON LIBERTY",
+            "Energetic Bear",
+            "Ghost Blizzard",
+            "BROMINE"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "4.0",
+        "x_mitre_contributors": [
+            "Dragos Threat Intelligence"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",
+        "created": "2017-05-31T21:32:05.217Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0035",
+                "external_id": "G0035"
+            },
+            {
+                "source_name": "DYMALLOY",
+                "description": "(Citation: Dragos DYMALLOY )(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "Berserk Bear",
+                "description": "(Citation: Gigamon Berserk Bear October 2021)(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "TEMP.Isotope",
+                "description": "(Citation: Mandiant Ukraine Cyber Threats January 2022)(Citation: Gigamon Berserk Bear October 2021)"
+            },
+            {
+                "source_name": "Ghost Blizzard",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "BROMINE",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Crouching Yeti",
+                "description": "(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Gigamon Berserk Bear October 2021)(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "IRON LIBERTY",
+                "description": "(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Secureworks MCMD July 2019)(Citation: Secureworks Karagany July 2019)(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "TG-4192",
+                "description": "(Citation: Secureworks IRON LIBERTY July 2019)(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "Dragonfly",
+                "description": "(Citation: Symantec Dragonfly)(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Gigamon Berserk Bear October 2021)(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "Energetic Bear",
+                "description": "(Citation: Symantec Dragonfly)(Citation: Secureworks IRON LIBERTY July 2019)(Citation: Secureworks MCMD July 2019)(Citation: Secureworks Karagany July 2019)(Citation: Gigamon Berserk Bear October 2021)(Citation: DOJ Russia Targeting Critical Infrastructure March 2022)(Citation: UK GOV FSB Factsheet April 2022)"
+            },
+            {
+                "source_name": "CISA AA20-296A Berserk Bear December 2020",
+                "description": "CISA. (2020, December 1). Russian State-Sponsored Advanced Persistent Threat Actor Compromises U.S. Government Targets. Retrieved December 9, 2021.",
+                "url": "https://www.cisa.gov/uscert/ncas/alerts/aa20-296a#revisions"
+            },
+            {
+                "source_name": "DOJ Russia Targeting Critical Infrastructure March 2022",
+                "description": "Department of Justice. (2022, March 24). Four Russian Government Employees Charged in Two Historical Hacking Campaigns Targeting Critical Infrastructure Worldwide. Retrieved April 5, 2022.",
+                "url": "https://www.justice.gov/opa/pr/four-russian-government-employees-charged-two-historical-hacking-campaigns-targeting-critical"
+            },
+            {
+                "source_name": "Dragos DYMALLOY ",
+                "description": "Dragos. (n.d.). DYMALLOY. Retrieved August 20, 2020.",
+                "url": "https://www.dragos.com/threat/dymalloy/"
+            },
+            {
+                "source_name": "Fortune Dragonfly 2.0 Sept 2017",
+                "description": "Hackett, R. (2017, September 6). Hackers Have Penetrated Energy Grid, Symantec Warns. Retrieved June 6, 2018.",
+                "url": "http://fortune.com/2017/09/06/hack-energy-grid-symantec/"
+            },
+            {
+                "source_name": "Mandiant Ukraine Cyber Threats January 2022",
+                "description": "Hultquist, J. (2022, January 20). Anticipating Cyber Threats as the Ukraine Crisis Escalates. Retrieved January 24, 2022.",
+                "url": "https://www.mandiant.com/resources/ukraine-crisis-cyber-threats"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "Secureworks MCMD July 2019",
+                "description": "Secureworks. (2019, July 24). MCMD Malware Analysis. Retrieved August 13, 2020.",
+                "url": "https://www.secureworks.com/research/mcmd-malware-analysis"
+            },
+            {
+                "source_name": "Secureworks IRON LIBERTY July 2019",
+                "description": "Secureworks. (2019, July 24). Resurgent Iron Liberty Targeting Energy Sector. Retrieved August 12, 2020.",
+                "url": "https://www.secureworks.com/research/resurgent-iron-liberty-targeting-energy-sector"
+            },
+            {
+                "source_name": "Secureworks Karagany July 2019",
+                "description": "Secureworks. (2019, July 24). Updated Karagany Malware Targets Energy Sector. Retrieved August 12, 2020.",
+                "url": "https://www.secureworks.com/research/updated-karagany-malware-targets-energy-sector"
+            },
+            {
+                "source_name": "Gigamon Berserk Bear October 2021",
+                "description": "Slowik, J. (2021, October). THE BAFFLING BERSERK BEAR: A DECADE\u2019S ACTIVITY TARGETING CRITICAL INFRASTRUCTURE. Retrieved December 6, 2021.",
+                "url": "https://vblocalhost.com/uploads/VB2021-Slowik.pdf"
+            },
+            {
+                "source_name": "Symantec Dragonfly Sept 2017",
+                "description": "Symantec Security Response. (2014, July 7). Dragonfly: Western energy sector targeted by sophisticated attack group. Retrieved September 9, 2017.",
+                "url": "https://docs.broadcom.com/doc/dragonfly_threat_against_western_energy_suppliers"
+            },
+            {
+                "source_name": "Symantec Dragonfly",
+                "description": "Symantec Security Response. (2014, June 30). Dragonfly: Cyberespionage Attacks Against Energy Suppliers. Retrieved April 8, 2016.",
+                "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=7382dce7-0260-4782-84cc-890971ed3f17&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+            },
+            {
+                "source_name": "Symantec Dragonfly 2.0 October 2017",
+                "description": "Symantec. (2017, October 7). Dragonfly: Western energy sector targeted by sophisticated attack group. Retrieved April 19, 2022.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/dragonfly-energy-sector-cyber-attacks"
+            },
+            {
+                "source_name": "UK GOV FSB Factsheet April 2022",
+                "description": "UK Gov. (2022, April 5). Russia's FSB malign activity: factsheet. Retrieved April 5, 2022.",
+                "url": "https://www.gov.uk/government/publications/russias-fsb-malign-cyber-activity-factsheet/russias-fsb-malign-activity-factsheet"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "ics-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-02-09T19:27:00.371Z",
+        "name": "HEXANE",
+        "description": "[HEXANE](https://attack.mitre.org/groups/G1001) is a cyber espionage threat group that has targeted oil & gas, telecommunications, aviation, and internet service provider organizations since at least 2017. Targeted companies have been located in the Middle East and Africa, including Israel, Saudi Arabia, Kuwait, Morocco, and Tunisia. [HEXANE](https://attack.mitre.org/groups/G1001)'s TTPs appear similar to [APT33](https://attack.mitre.org/groups/G0064) and [OilRig](https://attack.mitre.org/groups/G0049) but due to differences in victims and tools it is tracked as a separate entity.(Citation: Dragos Hexane)(Citation: Kaspersky Lyceum October 2021)(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
+        "aliases": [
+            "HEXANE",
+            "Lyceum",
+            "Siamesekitten",
+            "Spirlin"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.2",
+        "x_mitre_contributors": [
+            "Dragos Threat Intelligence",
+            "Mindaugas Gudzis, BT Security"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",
+        "created": "2018-10-17T00:14:20.652Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1001",
+                "external_id": "G1001"
+            },
+            {
+                "source_name": "Spirlin",
+                "description": "(Citation: Accenture Lyceum Targets November 2021)"
+            },
+            {
+                "source_name": "Siamesekitten",
+                "description": "(Citation: ClearSky Siamesekitten August 2021)"
+            },
+            {
+                "source_name": "Lyceum",
+                "description": "(Citation: SecureWorks August 2019)"
+            },
+            {
+                "source_name": "Accenture Lyceum Targets November 2021",
+                "description": "Accenture. (2021, November 9). Who are latest targets of cyber group Lyceum?. Retrieved June 16, 2022.",
+                "url": "https://www.accenture.com/us-en/blogs/cyber-defense/iran-based-lyceum-campaigns"
+            },
+            {
+                "source_name": "ClearSky Siamesekitten August 2021",
+                "description": "ClearSky Cyber Security . (2021, August). New Iranian Espionage Campaign By \u201cSiamesekitten\u201d - Lyceum. Retrieved June 6, 2022.",
+                "url": "https://www.clearskysec.com/siamesekitten/"
+            },
+            {
+                "source_name": "Dragos Hexane",
+                "description": "Dragos. (n.d.). Hexane. Retrieved October 27, 2019.",
+                "url": "https://dragos.com/resource/hexane/"
+            },
+            {
+                "source_name": "Kaspersky Lyceum October 2021",
+                "description": "Kayal, A. et al. (2021, October). LYCEUM REBORN: COUNTERINTELLIGENCE IN THE MIDDLE EAST. Retrieved June 14, 2022.",
+                "url": "https://vblocalhost.com/uploads/VB2021-Kayal-etal.pdf"
+            },
+            {
+                "source_name": "SecureWorks August 2019",
+                "description": "SecureWorks 2019, August 27 LYCEUM Takes Center Stage in Middle East Campaign Retrieved. 2019/11/19 ",
+                "url": "https://www.secureworks.com/blog/lyceum-takes-center-stage-in-middle-east-campaign"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "ics-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-01-08T20:33:16.460Z",
+        "name": "Leviathan",
+        "description": "[Leviathan](https://attack.mitre.org/groups/G0065) is a Chinese state-sponsored cyber espionage group that has been attributed to the Ministry of State Security's (MSS) Hainan State Security Department and an affiliated front company.(Citation: CISA AA21-200A APT40 July 2021) Active since at least 2009, [Leviathan](https://attack.mitre.org/groups/G0065) has targeted the following sectors: academia, aerospace/aviation, biomedical, defense industrial base, government, healthcare, manufacturing, maritime, and transportation across the US, Canada, Europe, the Middle East, and Southeast Asia.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)",
+        "aliases": [
+            "Leviathan",
+            "MUDCARP",
+            "Kryptonite Panda",
+            "Gadolinium",
+            "BRONZE MOHAWK",
+            "TEMP.Jumper",
+            "APT40",
+            "TEMP.Periscope",
+            "Gingham Typhoon"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "4.0",
+        "x_mitre_contributors": [
+            "Valerii Marchuk, Cybersecurity Help s.r.o."
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--7113eaa5-ba79-4fb3-b68a-398ee9cd698e",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0065",
+                "external_id": "G0065"
+            },
+            {
+                "source_name": "MUDCARP",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: Accenture MUDCARP March 2019)"
+            },
+            {
+                "source_name": "Kryptonite Panda",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: Crowdstrike KRYPTONITE PANDA August 2018)"
+            },
+            {
+                "source_name": "Gadolinium",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: MSTIC GADOLINIUM September 2020)"
+            },
+            {
+                "source_name": "BRONZE MOHAWK",
+                "description": "(Citation: CISA AA21-200A APT40 July 2021)(Citation: SecureWorks BRONZE MOHAWK n.d.)"
+            },
+            {
+                "source_name": "Gingham Typhoon",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Leviathan",
+                "description": "(Citation: Proofpoint Leviathan Oct 2017)"
+            },
+            {
+                "source_name": "TEMP.Jumper",
+                "description": "[Leviathan](https://attack.mitre.org/groups/G0065) was previously reported upon by FireEye as TEMP.Periscope and TEMP.Jumper.(Citation: CISA AA21-200A APT40 July 2021)(Citation: FireEye APT40 March 2019)"
+            },
+            {
+                "source_name": "TEMP.Periscope",
+                "description": "[Leviathan](https://attack.mitre.org/groups/G0065) was previously reported upon by FireEye as TEMP.Periscope and TEMP.Jumper.(Citation: CISA AA21-200A APT40 July 2021)(Citation: FireEye Periscope March 2018)(Citation: FireEye APT40 March 2019)"
+            },
+            {
+                "source_name": "Accenture MUDCARP March 2019",
+                "description": "Accenture iDefense Unit. (2019, March 5). Mudcarp's Focus on Submarine Technologies. Retrieved August 24, 2021.",
+                "url": "https://www.accenture.com/us-en/blogs/cyber-defense/mudcarps-focus-on-submarine-technologies"
+            },
+            {
+                "source_name": "Crowdstrike KRYPTONITE PANDA August 2018",
+                "description": "Adam Kozy. (2018, August 30). Two Birds, One Stone Panda. Retrieved August 24, 2021.",
+                "url": "https://www.crowdstrike.com/blog/two-birds-one-stone-panda/"
+            },
+            {
+                "source_name": "Proofpoint Leviathan Oct 2017",
+                "description": "Axel F, Pierre T. (2017, October 16). Leviathan: Espionage actor spearphishes maritime and defense targets. Retrieved February 15, 2018.",
+                "url": "https://www.proofpoint.com/us/threat-insight/post/leviathan-espionage-actor-spearphishes-maritime-and-defense-targets"
+            },
+            {
+                "source_name": "MSTIC GADOLINIUM September 2020",
+                "description": "Ben Koehl, Joe Hannon. (2020, September 24). Microsoft Security - Detecting Empires in the Cloud. Retrieved August 24, 2021.",
+                "url": "https://www.microsoft.com/security/blog/2020/09/24/gadolinium-detecting-empires-cloud/"
+            },
+            {
+                "source_name": "CISA AA21-200A APT40 July 2021",
+                "description": "CISA. (2021, July 19). (AA21-200A) Joint Cybersecurity Advisory \u2013 Tactics, Techniques, and Procedures of Indicted APT40 Actors Associated with China\u2019s MSS Hainan State Security Department. Retrieved August 12, 2021.",
+                "url": "https://us-cert.cisa.gov/ncas/alerts/aa21-200a"
+            },
+            {
+                "source_name": "APT40",
+                "description": "FireEye reporting on TEMP.Periscope (which was combined into APT40) indicated TEMP.Periscope was reported upon as Leviathan.(Citation: CISA AA21-200A APT40 July 2021)(Citation: Proofpoint Leviathan Oct 2017)(Citation: FireEye Periscope March 2018)(Citation: FireEye APT40 March 2019)"
+            },
+            {
+                "source_name": "FireEye Periscope March 2018",
+                "description": "FireEye. (2018, March 16). Suspected Chinese Cyber Espionage Group (TEMP.Periscope) Targeting U.S. Engineering and Maritime Industries. Retrieved April 11, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/03/suspected-chinese-espionage-group-targeting-maritime-and-engineering-industries.html"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "FireEye APT40 March 2019",
+                "description": "Plan, F., et al. (2019, March 4). APT40: Examining a China-Nexus Espionage Actor. Retrieved March 18, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/03/apt40-examining-a-china-nexus-espionage-actor.html"
+            },
+            {
+                "source_name": "SecureWorks BRONZE MOHAWK n.d.",
+                "description": "SecureWorks. (n.d.). Threat Profile - BRONZE MOHAWK. Retrieved August 24, 2021.",
+                "url": "https://www.secureworks.com/research/threat-profiles/bronze-mohawk"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-10T22:38:45.199Z",
+        "name": "TA2541",
+        "description": "[TA2541](https://attack.mitre.org/groups/G1018) is a cybercriminal group that has been targeting the aviation, aerospace, transportation, manufacturing, and defense industries since at least 2017. [TA2541](https://attack.mitre.org/groups/G1018) campaigns are typically high volume and involve the use of commodity remote access tools obfuscated by crypters and themes related to aviation, transportation, and travel.(Citation: Proofpoint TA2541 February 2022)(Citation: Cisco Operation Layover September 2021)",
+        "aliases": [
+            "TA2541"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.1",
+        "x_mitre_contributors": [
+            "Pooja Natarajan, NEC Corporation India",
+            "Aaron Jornet"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0",
+        "created": "2023-09-12T17:00:22.615Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1018",
+                "external_id": "G1018"
+            },
+            {
+                "source_name": "Proofpoint TA2541 February 2022",
+                "description": "Larson, S. and Wise, J. (2022, February 15). Charting TA2541's Flight. Retrieved September 12, 2023.",
+                "url": "https://www.proofpoint.com/us/blog/threat-insight/charting-ta2541s-flight"
+            },
+            {
+                "source_name": "Cisco Operation Layover September 2021",
+                "description": "Ventura, V. (2021, September 16). Operation Layover: How we tracked an attack on the aviation industry to five years of compromise. Retrieved September 15, 2023.",
+                "url": "https://blog.talosintelligence.com/operation-layover-how-we-tracked-attack/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-11T16:06:34.700Z",
+        "name": "APT33",
+        "description": "[APT33](https://attack.mitre.org/groups/G0064) is a suspected Iranian threat group that has carried out operations since at least 2013. The group has targeted organizations across multiple industries in the United States, Saudi Arabia, and South Korea, with a particular interest in the aviation and energy sectors.(Citation: FireEye APT33 Sept 2017)(Citation: FireEye APT33 Webinar Sept 2017)",
+        "aliases": [
+            "APT33",
+            "HOLMIUM",
+            "Elfin",
+            "Peach Sandstorm"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.0",
+        "x_mitre_contributors": [
+            "Dragos Threat Intelligence"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0064",
+                "external_id": "G0064"
+            },
+            {
+                "source_name": "APT33",
+                "description": "(Citation: FireEye APT33 Sept 2017) (Citation: FireEye APT33 Webinar Sept 2017)"
+            },
+            {
+                "source_name": "HOLMIUM",
+                "description": "(Citation: Microsoft Holmium June 2020)"
+            },
+            {
+                "source_name": "Peach Sandstorm",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Elfin",
+                "description": "(Citation: Symantec Elfin Mar 2019)"
+            },
+            {
+                "source_name": "FireEye APT33 Webinar Sept 2017",
+                "description": "Davis, S. and Carr, N. (2017, September 21). APT33: New Insights into Iranian Cyber Espionage Group. Retrieved February 15, 2018.",
+                "url": "https://www.brighttalk.com/webcast/10703/275683"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "Microsoft Holmium June 2020",
+                "description": "Microsoft Threat Protection Intelligence Team. (2020, June 18). Inside Microsoft Threat Protection: Mapping attack chains from cloud to endpoint. Retrieved June 22, 2020.",
+                "url": "https://www.microsoft.com/security/blog/2020/06/18/inside-microsoft-threat-protection-mapping-attack-chains-from-cloud-to-endpoint/"
+            },
+            {
+                "source_name": "FireEye APT33 Sept 2017",
+                "description": "O'Leary, J., et al. (2017, September 20). Insights into Iranian Cyber Espionage: APT33 Targets Aerospace and Energy Sectors and has Ties to Destructive Malware. Retrieved February 15, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/09/apt33-insights-into-iranian-cyber-espionage.html"
+            },
+            {
+                "source_name": "Symantec Elfin Mar 2019",
+                "description": "Security Response attack Investigation Team. (2019, March 27). Elfin: Relentless Espionage Group Targets Multiple Organizations in Saudi Arabia and U.S.. Retrieved April 10, 2019.",
+                "url": "https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "ics-attack",
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    }
+]

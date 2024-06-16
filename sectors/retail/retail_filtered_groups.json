@@ -1,0 +1,407 @@
+[
+    {
+        "modified": "2024-04-17T22:09:41.004Z",
+        "name": "FIN7",
+        "description": "[FIN7](https://attack.mitre.org/groups/G0046) is a financially-motivated threat group that has been active since 2013. [FIN7](https://attack.mitre.org/groups/G0046) has primarily targeted the retail, restaurant, hospitality, software, consulting, financial services, medical equipment, cloud services, media, food and beverage, transportation, and utilities industries in the U.S. A portion of [FIN7](https://attack.mitre.org/groups/G0046) was run out of a front company called Combi Security and often used point-of-sale malware for targeting efforts. Since 2020, [FIN7](https://attack.mitre.org/groups/G0046) shifted operations to a big game hunting (BGH) approach including use of [REvil](https://attack.mitre.org/software/S0496) ransomware and their own Ransomware as a Service (RaaS), Darkside. FIN7 may be linked to the [Carbanak](https://attack.mitre.org/groups/G0008) Group, but there appears to be several groups using [Carbanak](https://attack.mitre.org/software/S0030) malware and are therefore tracked separately.(Citation: FireEye FIN7 March 2017)(Citation: FireEye FIN7 April 2017)(Citation: FireEye CARBANAK June 2017)(Citation: FireEye FIN7 Aug 2018)(Citation: CrowdStrike Carbon Spider August 2021)(Citation: Mandiant FIN7 Apr 2022)",
+        "aliases": [
+            "FIN7",
+            "GOLD NIAGARA",
+            "ITG14",
+            "Carbon Spider",
+            "ELBRUS",
+            "Sangria Tempest"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "4.0",
+        "x_mitre_contributors": [
+            "Edward Millington"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",
+        "created": "2017-05-31T21:32:09.460Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0046",
+                "external_id": "G0046"
+            },
+            {
+                "source_name": "Carbon Spider",
+                "description": "(Citation: CrowdStrike Carbon Spider August 2021)"
+            },
+            {
+                "source_name": "FIN7",
+                "description": "(Citation: FireEye FIN7 March 2017) (Citation: FireEye FIN7 April 2017) (Citation: Morphisec FIN7 June 2017) (Citation: FireEye FIN7 Shim Databases) (Citation: FireEye FIN7 Aug 2018)"
+            },
+            {
+                "source_name": "ELBRUS",
+                "description": "(Citation: Microsoft Ransomware as a Service)"
+            },
+            {
+                "source_name": "Sangria Tempest",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "GOLD NIAGARA",
+                "description": "(Citation: Secureworks GOLD NIAGARA Threat Profile)"
+            },
+            {
+                "source_name": "Mandiant FIN7 Apr 2022",
+                "description": "Abdo, B., et al. (2022, April 4). FIN7 Power Hour: Adversary Archaeology and the Evolution of FIN7. Retrieved April 5, 2022.",
+                "url": "https://www.mandiant.com/resources/evolution-of-fin7"
+            },
+            {
+                "source_name": "FireEye CARBANAK June 2017",
+                "description": "Bennett, J., Vengerik, B. (2017, June 12). Behind the CARBANAK Backdoor. Retrieved June 11, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/06/behind-the-carbanak-backdoor.html"
+            },
+            {
+                "source_name": "FireEye FIN7 April 2017",
+                "description": "Carr, N., et al. (2017, April 24). FIN7 Evolution and the Phishing LNK. Retrieved April 24, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html"
+            },
+            {
+                "source_name": "FireEye FIN7 Aug 2018",
+                "description": "Carr, N., et al. (2018, August 01). On the Hunt for FIN7: Pursuing an Enigmatic and Evasive Global Criminal Operation. Retrieved August 23, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html"
+            },
+            {
+                "source_name": "Secureworks GOLD NIAGARA Threat Profile",
+                "description": "CTU. (n.d.). GOLD NIAGARA. Retrieved September 21, 2021.",
+                "url": "https://www.secureworks.com/research/threat-profiles/gold-niagara"
+            },
+            {
+                "source_name": "FireEye FIN7 Shim Databases",
+                "description": "Erickson, J., McWhirt, M., Palombo, D. (2017, May 3). To SDB, Or Not To SDB: FIN7 Leveraging Shim Databases for Persistence. Retrieved July 18, 2017.",
+                "url": "https://www.fireeye.com/blog/threat-research/2017/05/fin7-shim-databases-persistence.html"
+            },
+            {
+                "source_name": "Morphisec FIN7 June 2017",
+                "description": "Gorelik, M.. (2017, June 9). FIN7 Takes Another Bite at the Restaurant Industry. Retrieved July 13, 2017.",
+                "url": "http://blog.morphisec.com/fin7-attacks-restaurant-industry"
+            },
+            {
+                "source_name": "ITG14",
+                "description": "ITG14 shares campaign overlap with [FIN7](https://attack.mitre.org/groups/G0046).(Citation: IBM Ransomware Trends September 2020)"
+            },
+            {
+                "source_name": "CrowdStrike Carbon Spider August 2021",
+                "description": "Loui, E. and Reynolds, J. (2021, August 30). CARBON SPIDER Embraces Big Game Hunting, Part 1. Retrieved September 20, 2021.",
+                "url": "https://www.crowdstrike.com/blog/carbon-spider-embraces-big-game-hunting-part-1/"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "Microsoft Ransomware as a Service",
+                "description": "Microsoft. (2022, May 9). Ransomware as a service: Understanding the cybercrime gig economy and how to protect yourself. Retrieved March 10, 2023.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/"
+            },
+            {
+                "source_name": "FireEye FIN7 March 2017",
+                "description": "Miller, S., et al. (2017, March 7). FIN7 Spear Phishing Campaign Targets Personnel Involved in SEC Filings. Retrieved March 8, 2017.",
+                "url": "https://web.archive.org/web/20180808125108/https:/www.fireeye.com/blog/threat-research/2017/03/fin7_spear_phishing.html"
+            },
+            {
+                "source_name": "IBM Ransomware Trends September 2020",
+                "description": "Singleton, C. and Kiefer, C. (2020, September 28). Ransomware 2020: Attack Trends Affecting Organizations Worldwide. Retrieved September 20, 2021.",
+                "url": "https://securityintelligence.com/posts/ransomware-2020-attack-trends-new-techniques-affecting-organizations-worldwide/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "ics-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-01-08T22:13:27.588Z",
+        "name": "FIN6",
+        "description": "[FIN6](https://attack.mitre.org/groups/G0037) is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
+        "aliases": [
+            "FIN6",
+            "Magecart Group 6",
+            "ITG08",
+            "Skeleton Spider",
+            "TAAL",
+            "Camouflage Tempest"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "4.0",
+        "x_mitre_contributors": [
+            "Center for Threat-Informed Defense (CTID)",
+            "Drew Church, Splunk"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",
+        "created": "2017-05-31T21:32:06.015Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0037",
+                "external_id": "G0037"
+            },
+            {
+                "source_name": "Skeleton Spider",
+                "description": "(Citation: Crowdstrike Global Threat Report Feb 2018)"
+            },
+            {
+                "source_name": "FIN6",
+                "description": "(Citation: FireEye FIN6 April 2016)"
+            },
+            {
+                "source_name": "TAAL",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Camouflage Tempest",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Magecart Group 6",
+                "description": "(Citation: Security Intelligence ITG08 April 2020)"
+            },
+            {
+                "source_name": "ITG08",
+                "description": "(Citation: Security Intelligence More Eggs Aug 2019)"
+            },
+            {
+                "source_name": "Crowdstrike Global Threat Report Feb 2018",
+                "description": "CrowdStrike. (2018, February 26). CrowdStrike 2018 Global Threat Report. Retrieved October 10, 2018.",
+                "url": "https://crowdstrike.lookbookhq.com/global-threat-report-2018-web/cs-2018-global-threat-report"
+            },
+            {
+                "source_name": "FireEye FIN6 April 2016",
+                "description": "FireEye Threat Intelligence. (2016, April). Follow the Money: Dissecting the Operations of the Cyber Crime Group FIN6. Retrieved June 1, 2016.",
+                "url": "https://www2.fireeye.com/rs/848-DID-242/images/rpt-fin6.pdf"
+            },
+            {
+                "source_name": "FireEye FIN6 Apr 2019",
+                "description": "McKeague, B. et al. (2019, April 5). Pick-Six: Intercepting a FIN6 Intrusion, an Actor Recently Tied to Ryuk and LockerGoga Ransomware. Retrieved April 17, 2019.",
+                "url": "https://www.fireeye.com/blog/threat-research/2019/04/pick-six-intercepting-a-fin6-intrusion.html"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "Security Intelligence ITG08 April 2020",
+                "description": "Villadsen, O. (2020, April 7). ITG08 (aka FIN6) Partners With TrickBot Gang, Uses Anchor Framework. Retrieved October 8, 2020.",
+                "url": "https://securityintelligence.com/posts/itg08-aka-fin6-partners-with-trickbot-gang-uses-anchor-framework/"
+            },
+            {
+                "source_name": "Security Intelligence More Eggs Aug 2019",
+                "description": "Villadsen, O.. (2019, August 29). More_eggs, Anyone? Threat Actor ITG08 Strikes Again. Retrieved September 16, 2019.",
+                "url": "https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "ics-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2023-09-29T19:08:47.861Z",
+        "name": "FIN13",
+        "description": "[FIN13](https://attack.mitre.org/groups/G1016) is a financially motivated cyber threat group that has targeted the financial, retail, and hospitality industries in Mexico and Latin America, as early as 2016. [FIN13](https://attack.mitre.org/groups/G1016) achieves its objectives by stealing intellectual property, financial data, mergers and acquisition information, or PII.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
+        "aliases": [
+            "FIN13",
+            "Elephant Beetle"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "1.0",
+        "x_mitre_contributors": [
+            "Oren Biderman, Sygnia",
+            "Noam Lifshitz, Sygnia"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",
+        "created": "2023-07-27T15:24:02.162Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1016",
+                "external_id": "G1016"
+            },
+            {
+                "source_name": "Elephant Beetle",
+                "description": "(Citation: Sygnia Elephant Beetle Jan 2022)"
+            },
+            {
+                "source_name": "Sygnia Elephant Beetle Jan 2022",
+                "description": "Sygnia Incident Response Team. (2022, January 5). TG2003: ELEPHANT BEETLE UNCOVERING AN ORGANIZED FINANCIAL-THEFT OPERATION. Retrieved February 9, 2023.",
+                "url": "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf?__hstc=147695848.3e8f1a482c8f8d4531507747318e660b.1680005306711.1680005306711.1680005306711.1&__hssc=147695848.1.1680005306711&__hsfp=3000179024&hsCtaTracking=189ec409-ae2d-4909-8bf1-62dcdd694372%7Cca91d317-8f10-4a38-9f80-367f551ad64d"
+            },
+            {
+                "source_name": "Mandiant FIN13 Aug 2022",
+                "description": "Ta, V., et al. (2022, August 8). FIN13: A Cybercriminal Threat Actor Focused on Mexico. Retrieved February 9, 2023.",
+                "url": "https://www.mandiant.com/resources/blog/fin13-cybercriminal-mexico"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2023-09-19T14:08:59.296Z",
+        "name": "FIN8",
+        "description": "[FIN8](https://attack.mitre.org/groups/G0061) is a financially motivated threat group that has been active since at least January 2016, and known for targeting organizations in the hospitality, retail, entertainment, insurance, technology, chemical, and financial sectors. In June 2021, security researchers detected [FIN8](https://attack.mitre.org/groups/G0061) switching from targeting point-of-sale (POS) devices to distributing a number of ransomware variants.(Citation: FireEye Obfuscation June 2017)(Citation: FireEye Fin8 May 2016)(Citation: Bitdefender Sardonic Aug 2021)(Citation: Symantec FIN8 Jul 2023)",
+        "aliases": [
+            "FIN8",
+            "Syssphinx"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.0",
+        "x_mitre_contributors": [
+            "Daniyal Naeem, BT Security",
+            "Serhii Melnyk, Trustwave SpiderLabs"
+        ],
+        "type": "intrusion-set",
+        "id": "intrusion-set--fd19bd82-1b14-49a1-a176-6cdc46b8a826",
+        "created": "2018-04-18T17:59:24.739Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G0061",
+                "external_id": "G0061"
+            },
+            {
+                "source_name": "FIN8",
+                "description": "(Citation: FireEye Obfuscation June 2017)"
+            },
+            {
+                "source_name": "Syssphinx",
+                "description": "(Citation: Symantec FIN8 Jul 2023)"
+            },
+            {
+                "source_name": "FireEye Obfuscation June 2017",
+                "description": "Bohannon, D. & Carr N. (2017, June 30). Obfuscation in the Wild: Targeted Attackers Lead the Way in Evasion Techniques. Retrieved February 12, 2018.",
+                "url": "https://web.archive.org/web/20170923102302/https://www.fireeye.com/blog/threat-research/2017/06/obfuscation-in-the-wild.html"
+            },
+            {
+                "source_name": "Bitdefender Sardonic Aug 2021",
+                "description": "Budaca, E., et al. (2021, August 25). FIN8 Threat Actor Goes Agile with New Sardonic Backdoor. Retrieved August 9, 2023.",
+                "url": "https://www.bitdefender.com/files/News/CaseStudies/study/401/Bitdefender-PR-Whitepaper-FIN8-creat5619-en-EN.pdf"
+            },
+            {
+                "source_name": "FireEye Fin8 May 2016",
+                "description": "Kizhakkinan, D., et al. (2016, May 11). Threat Actor Leverages Windows Zero-day Exploit in Payment Card Data Attacks. Retrieved February 12, 2018.",
+                "url": "https://www.fireeye.com/blog/threat-research/2016/05/windows-zero-day-payment-cards.html"
+            },
+            {
+                "source_name": "Symantec FIN8 Jul 2023",
+                "description": "Symantec Threat Hunter Team. (2023, July 18). FIN8 Uses Revamped Sardonic Backdoor to Deliver Noberus Ransomware. Retrieved August 9, 2023.",
+                "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/syssphinx-fin8-backdoor"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.1.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    },
+    {
+        "modified": "2024-04-04T21:24:48.602Z",
+        "name": "Scattered Spider",
+        "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) is a native English-speaking cybercriminal group that has been active since at least 2022.(Citation: CrowdStrike Scattered Spider Profile)(Citation: MSTIC Octo Tempest Operations October 2023) The group initially targeted customer relationship management and business-process outsourcing (BPO) firms as well as telecommunications and technology companies. Beginning in 2023, [Scattered Spider](https://attack.mitre.org/groups/G1015) expanded its operations to compromise victims in the gaming, hospitality, retail, MSP, manufacturing, and financial sectors.(Citation: MSTIC Octo Tempest Operations October 2023) During campaigns, [Scattered Spider](https://attack.mitre.org/groups/G1015) has leveraged targeted social-engineering techniques, attempted to bypass popular endpoint security tools, and more recently, deployed ransomware for financial gain.(Citation: CISA Scattered Spider Advisory November 2023)(Citation: CrowdStrike Scattered Spider BYOVD January 2023)(Citation: CrowdStrike Scattered Spider Profile)(Citation: MSTIC Octo Tempest Operations October 2023)(Citation: Crowdstrike TELCO BPO Campaign December 2022)",
+        "aliases": [
+            "Scattered Spider",
+            "Roasted 0ktapus",
+            "Octo Tempest",
+            "Storm-0875"
+        ],
+        "x_mitre_deprecated": false,
+        "x_mitre_version": "2.0",
+        "type": "intrusion-set",
+        "id": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",
+        "created": "2023-07-05T17:54:54.789Z",
+        "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+        "revoked": false,
+        "external_references": [
+            {
+                "source_name": "mitre-attack",
+                "url": "https://attack.mitre.org/groups/G1015",
+                "external_id": "G1015"
+            },
+            {
+                "source_name": "Roasted 0ktapus",
+                "description": "(Citation: CrowdStrike Scattered Spider BYOVD January 2023)"
+            },
+            {
+                "source_name": "Octo Tempest",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "Storm-0875",
+                "description": "(Citation: Microsoft Threat Actor Naming July 2023)"
+            },
+            {
+                "source_name": "CISA Scattered Spider Advisory November 2023",
+                "description": "CISA. (2023, November 16). Cybersecurity Advisory: Scattered Spider (AA23-320A). Retrieved March 18, 2024.",
+                "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a"
+            },
+            {
+                "source_name": "CrowdStrike Scattered Spider BYOVD January 2023",
+                "description": "CrowdStrike. (2023, January 10). SCATTERED SPIDER Exploits Windows Security Deficiencies with Bring-Your-Own-Vulnerable-Driver Tactic in Attempt to Bypass Endpoint Security. Retrieved July 5, 2023.",
+                "url": "https://www.crowdstrike.com/blog/scattered-spider-attempts-to-avoid-detection-with-bring-your-own-vulnerable-driver-tactic/"
+            },
+            {
+                "source_name": "CrowdStrike Scattered Spider Profile",
+                "description": "CrowdStrike. (n.d.). Scattered Spider. Retrieved July 5, 2023.",
+                "url": "https://www.crowdstrike.com/adversaries/scattered-spider/"
+            },
+            {
+                "source_name": "Microsoft Threat Actor Naming July 2023",
+                "description": "Microsoft . (2023, July 12). How Microsoft names threat actors. Retrieved November 17, 2023.",
+                "url": "https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide"
+            },
+            {
+                "source_name": "MSTIC Octo Tempest Operations October 2023",
+                "description": "Microsoft. (2023, October 25). Octo Tempest crosses boundaries to facilitate extortion, encryption, and destruction. Retrieved March 18, 2024.",
+                "url": "https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/"
+            },
+            {
+                "source_name": "Crowdstrike TELCO BPO Campaign December 2022",
+                "description": "Parisi, T. (2022, December 2). Not a SIMulation: CrowdStrike Investigations Reveal Intrusion Campaign Targeting Telco and BPO Companies. Retrieved June 30, 2023.",
+                "url": "https://www.crowdstrike.com/blog/analysis-of-intrusion-campaign-targeting-telecom-and-bpo-companies/"
+            }
+        ],
+        "object_marking_refs": [
+            "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+        ],
+        "x_mitre_domains": [
+            "enterprise-attack",
+            "mobile-attack"
+        ],
+        "x_mitre_attack_spec_version": "3.2.0",
+        "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+    }
+]
