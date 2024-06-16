@@ -16,8 +16,8 @@ Priority of a Mitigation MI = (Number of occurrences of mitigation MI among tech
 
 Clone the Repository:
 ```sh
-git clone https://github.com/yourusername/att&ck-profiler.git
-cd att&ck-profiler
+git clone https://github.com/yourusername/threat-profiler.git
+cd threat-profiler
 ```
 
 Install Dependencies:
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```sh
 $ python3 main.py -h                                                                                                                                                                  usage: main.py [-h] [--get-groups] [--download-layers] [--combine-layers] [--build-mitigations] [--calculate-occurences] [--calculate-priority] [--run-all] keyword                                                                     
                                                                                                                                                                                                                                         
-ATT&CK Profiler: Manipulate MITRE ATT&CK navigator layers                                                                                                                                                                            
+Threat Profiler: Manipulate MITRE ATT&CK navigator layers                                                                                                                                                                            
 
 positional arguments:
   keyword               The keyword to filter groups by
